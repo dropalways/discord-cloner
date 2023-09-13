@@ -1,6 +1,6 @@
 import requests
 
-token = "MTE1MTM4NjgwMTczMTI3Njg2MA.Gj5pnZ.vwzCP4wxXuT-Gl2DH130kSyMM8tcmR8imAOJ4E"
+token = "oops leaked my token"
 
 def selfbottingquestionmark(): # i dont think i need this function but whatever
     selfbot = input(r"Are you selfbotting? (yes\no): ")
