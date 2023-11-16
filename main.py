@@ -84,6 +84,7 @@ def clone_role(headers):
 def main(headers):
     while True:
         # lie and give false hope
+        os.system('cls' if os.name == 'nt' else 'clear')
         print("option 1: clone channel \noption 2: clone role \nmade by github.com/dropalways this is ass rn i will hopefully make it better :)")
         choice = input("pick num ")
         if choice == "1":
@@ -91,8 +92,7 @@ def main(headers):
         elif choice == "2":
             clone_role(headers)
         else:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("dumbass not a option")
+            print("dumbass thats not a option")
 
 
 selfbottingquestionmark()
